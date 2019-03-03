@@ -1,0 +1,280 @@
+body {background-color: black;
+	color:crimson;}
+h6
+{
+width:auto;
+    top:10px;
+    text-align:center;
+    line-height:0px;
+    margin-bottom:20px;
+    margin-top:0px;
+    font-size:24px;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    color:coral;
+}
+
+h1 
+{
+   
+    text-transform:uppercase;
+    font-size:24px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    color:firebrick;
+    
+    text-align: center;
+
+}
+
+h2 
+{
+    font-family:Times New Roman;
+    font-weight:bold;
+    font-style:normal;
+    color:darkred;
+    font-size:18px;
+    
+    text-align:center;
+}
+
+p 
+{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+    color:floralwhite;
+}
+
+#dokument /*opis struktury dokumentu - wielkoœæ, marginesy, obramowanie*/
+{
+    
+    height:auto;
+    background-color:dimgray;
+    border-radius: 7px;
+}
+
+
+#naglowek 
+{
+    width:auto;
+    height:250px;
+    position:relative;
+    background-image: url("Obrazy/sta.jpg");
+   border-radius: 7px;
+}
+
+#menu
+{
+    
+    position:relative;
+    width:auto;
+    height:0px;
+    border-top:1px solid black;
+    text-align:center;
+    
+    
+}
+
+#kol_prawa
+{margin-top:80px;
+ margin-left:380px;
+    position: center;
+    text-align:center;
+    width:750px;
+    height:auto;
+    overflow:auto;
+     
+}
+#quiz
+{margin-top:100px;
+ margin-left:100px;
+    position: center;
+    text-align:center;
+    width:1300px;
+    height:auto;
+    overflow:auto;
+     
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color:darkred;
+    font-size:20px;
+    text-decoration:none;
+
+}
+
+th, td 
+{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+
+a
+{
+  color:bisque;
+  text-decoration:none;
+  font-size:20px;
+ }
+
+footer
+{
+  color:pink;
+  text-align:right;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+   
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover {
+    background-color: darkred;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active{background-color:dimgrey;}
+
+div.desc {
+    padding: 17px;
+    text-align: center;
+    color:crimson;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+   
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+input[type=submit], input[type=reset] ,input[type=text] ,input[type=password]{
+    background-color:darkred;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    form
+    {
+        color:darkred;
+        font-size:20px;
+        
+    }
+fieldset {
+    border-radius: 4px;
+    text-align: left;
+}
+
+   div.img {
+    margin: 80px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+.img img {
+    width: 40%;
+    height: auto;
+}                       
+   .img:hover .dropdown-content {
+    display: block;
+}
+   div.desc {
+    padding: 15px;
+    text-align: center;
+}
+   #kol_prawa1
+{margin-top:80px;
+ margin-left:300px;
+    position: center;
+    text-align:center;
+    width:1050px;
+    height:auto;
+    overflow:auto;
+     
+}
+   .aktorki
+   {
+       height:400px;
+       width:300px;
+   }
+   .ramka {
+    display: inline-block;
+    width:200px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid darkred;
+}
+
+.ramka1 {
+    border: 3px solid bisque;
+   color:darkred;
+}

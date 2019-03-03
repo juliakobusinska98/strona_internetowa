@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+    <title>Moje Hobby</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Julia Kobusinska">
+    <link rel="Stylesheet" href="Style.css" />
+</head>
+<body>
+    <div id="dokument">
+        <div id="naglowek">
+            <br />
+            
+            <h1>Kino</h1>
+        </div>
+
+            <div id="menu">
+                
+                <ul>
+                    <li><a href="Projekt.html">OGÓLNIE</a></li>
+                    <li><a href="Historia.html">HISTORIA KINA</a></li>
+                    <li><a href="Oscary.html">OSCARY</a></li>
+                    <li><a href="Quiz.html">QUIZ</a></li>
+                    <li class="dropdown">
+                        <a href="Ludzie.html">LUDZIE KINA</a>
+                        <div class="dropdown-content">
+                            <a href="Aktorki.html">AKTORKI</a>
+                            <a href="Aktorzy.html">AKTORZY</a>
+                            <a href="Rezyserzy.html">REŻYSERZY </a>
+                        </div>
+                    </li>
+
+                    <li><a class="active" href="Opinia.html">OPINIA</a></li>
+                    
+                </ul>
+            </div>
+            <div id="kol_prawa">
+              
+                    <form action="mailto:juliakobusnska@gmail.com" method="post">
+                        <br>
+                        <input type="text" name="imie" value="Imię">
+                        <br>
+                        <br>
+                        <input type="text" name="nazwisko" value="Nazwisko">
+                        <br>
+                        <br>
+                        <input type="text" name="mail" value="E-mail">
+                        <br><br>
+                        <input type="radio" name="plec" value="tak" checked>Kobieta
+                        <input type="radio" name="plec" value="nie">Mężczyzna<br>
+                        <br />
+                        CZY INTERESUJESZ SIĘ KINEM? <br />
+                        <select id="kino" name="kino">
+                            <option value="nic">Wybierz</option>
+                            <option value="Nie">Zdecydowanie Nie</option>
+                            <option value="Trochę">Trochę</option>
+                            <option value="Tak">Tak</option>
+                        </select>
+                        <br /><br />
+                        <fieldset>
+                            CZY PODOBA CI SIĘ TA STRONA?<br>
+                            <input type="radio" name="CzyPodoba" value="tak" checked> Tak<br>
+                            <input type="radio" name="CzyPodoba" value="nie"> Trochę<br>
+                            <input type="radio" name="CzyPodoba" value="zmieniłbym/łabym kilka rzeczy"> Zdecydowanie nie
+                        </fieldset>
+                        <br><br>
+                        <textarea name="wiadomosc">Wyraź swoją opinię...</textarea><br /><br />
+                        <input type="submit" value="Wyślij" >
+                        <input type="reset">
+                    </form>
+         
+        </div>
+        <svg width="1450px" height="100px">
+            <a xlink:href="Rezyserzy.html">
+                <polygon points="230 45, 160 45, 160 20, 110 60, 160 100,160 75, 230 75"
+                         fill="darkred" >
+                <animate attributeType="CSS" attributeName="opacity" from="2" to="0" dur="5s" repeatCount="indefinite" /></polygon>
+                <text fill="#ffffff" font-size="9" font-family="Verdana"
+                      x="140 " y="63">Poprzednia strona</text></a>
+          </svg>
+</div>
+    <footer>Julia Kobusińska EiT Grupa 5</footer>
+</body>
+</html>

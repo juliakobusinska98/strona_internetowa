@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+    <title>Moje Hobby</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Julia Kobusinska">
+    <link rel="Stylesheet" href="Style.css" />
+</head>
+<body>
+    <div id="dokument">
+        <div id="naglowek">
+            <br />
+           
+            <h1>Kino</h1>
+        </div>
+
+            <div id="menu">
+                
+                <ul>
+                    <li><a href="Projekt.html">OGÓLNIE</a></li>
+                    <li><a href="Historia.html">HISTORIA KINA</a></li>
+                    <li><a href="Oscary.html">OSCARY</a></li>
+                    <li><a href="Quiz.html">QUIZ</a></li>
+                    <li class="dropdown">
+                        <a href="Ludzie.html" class="active">LUDZIE KINA</a>
+                        <div class="dropdown-content">
+                            <a href="Aktorki.html">AKTORKI</a>
+                            <a href="Aktorzy.html">AKTORZY</a>
+                            <a href="Rezyserzy.html">REŻYSERZY </a>
+                        </div>
+                    </li>
+
+                    <li><a href="Opinia.html">OPINIA</a></li>
+                    
+                </ul>
+            </div>
+            <div id="quiz">
+
+                <div class="ramka1">Przejdź do wybranej sekcji klikając w obrazek</div>
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                <div class="ramka"><a href="Aktorki.html"><img src="Obrazy/Aktorki.jpg" alt="Aktorki"><br />AKTORKI</a></div>
+                <div class="ramka"><a href="Aktorzy.html"><img src="Obrazy/Aktorzy.jpg" alt="Aktorzy" ><br />AKTORZY</a></div>
+                <div class="ramka"><a href="Rezyserzy.html"><img src="Obrazy/Rezyserzy.jpeg" alt="Rezyserzy" ><br />REŻYSERZY</a></div>
+                
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                <div class="ramka1">Przejdź do wybranej sekcji klikając w obrazek</div>
+                <br /><br /><br /><br /><br /><br /><br /><br />
+
+                <svg width="1200" height="100px">
+                    <a xlink:href="Quiz.html">
+                        <polygon points="130 45, 60 45, 60 20, 10 60, 60 100,60 75, 130 75"
+                                 fill="darkred">
+                            <animate attributeType="CSS" attributeName="opacity" from="2" to="0" dur="5s" repeatCount="indefinite" />
+                        </polygon>
+                        <text fill="#ffffff" font-size="9" font-family="Verdana"
+                              x="40 " y="63">Poprzednia strona</text>
+                    </a>
+                    <a xlink:href="Aktorki.html">
+                        <polygon points="1070 45, 1140 45, 1140 20, 1190 60,1140 100, 1140 75, 1070 75"
+                                 fill="darkred" >
+                            <animate attributeType="CSS" attributeName="opacity" from="2" to="0" dur="5s" repeatCount="indefinite" />
+                        </polygon>
+                        <text fill="#ffffff" font-size="9" font-family="Verdana"
+                              x="1080 " y="63">Następna strona</text>
+                    </a>
+                </svg>
+
+        </div>
+
+    </div>
+    <footer>Julia Kobusińska EiT Grupa 5</footer>
+</body>
+</html>
